@@ -10,5 +10,5 @@ export const getDataFromToken = (request:NextRequest) => {
         return decodedToken.id;
     } catch (error: any) {
         throw new Error(error.message);
-    }
+    } 
 }
